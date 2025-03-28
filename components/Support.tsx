@@ -60,11 +60,11 @@ const Support = () => {
             <div className='flex-1 flex justify-center flex-col opacity-1 translate-y-[100px]' id='fade-in'>
               
               <p className='text-[#86868b] text-xl font-normal md:font-semibold my-2'>
-              L'acquisto di una programmazione include una {' '} <span className='text-white'>consulenza su WhatsApp </span>, durante la quale spiegherò la metodica di allenamento e risponderò a qualsiasi dubbio sulla programmazione.
+              L&apos;acquisto di una programmazione include una {' '} <span className='text-white'>consulenza su WhatsApp </span>, durante la quale spiegherò la metodica di allenamento e risponderò a qualsiasi dubbio sulla programmazione.
               </p>
               <p className='text-[#86868b] text-xl font-normal md:font-semibold my-2'>
               
-              Per ogni esercizio sarà disponibile un {' '} <span className='text-white'>link ad un video </span>che mostra l'esecuzione corretta dell'esercizio.
+              Per ogni esercizio sarà disponibile un {' '} <span className='text-white'>link ad un video </span>che mostra l&apos;esecuzione corretta dell&apos;esercizio.
               </p>
             </div>
           </div>
