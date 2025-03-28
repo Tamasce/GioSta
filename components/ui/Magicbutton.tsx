@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MagicButton = ({title, icon, position, handleClick, otherClasses, id}:{
+const MagicButton = ({title, position, handleClick, otherClasses, id}:{
   title: string, icon: string, position: string, handleClick?:()=>void, otherClasses?: string, id?: string
 }) => {
   return (
