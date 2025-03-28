@@ -30,7 +30,7 @@ const Support = () => {
   }, []);
 
   return (
-    <section className='h-[155vh] md:h-[170vh] w-full relative overflow-hidden px-5 sm:py-32 py-20 sm:px-10'>
+    <section className='h-[170vh] md:h-[170vh] w-full relative overflow-hidden px-5 sm:py-32 py-20 sm:px-10'>
       <div className='screen-max-width' id='Support'>
         <div className='w-full'>
           <h1 className='text-[#86868b] lg:text-6xl md:text-5xl text-3xl font-medium translate-y-20 lg:px-7 opacity-0' id='support-title'>
