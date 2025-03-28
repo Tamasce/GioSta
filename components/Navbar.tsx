@@ -4,8 +4,7 @@ import { navLists } from "@/constants";
 import MenuSvg from "./ui/MenuSvg";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
 import { useNav } from "./ui/navContext";
-import { BackgroundBeams } from "./ui/background";
-import { disablePageScroll, enablePageScroll } from "@fluejs/noscroll";
+import { enablePageScroll } from "@fluejs/noscroll";
 const Navbar = () => {
   const { openNavigation, toggleNavigation, setOpenNavigation } = useNav();
   const { scrollYProgress } = useScroll();
@@ -13,7 +12,7 @@ const Navbar = () => {
 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
     if (typeof current === "number") {
-      let direction = current! - scrollYProgress.getPrevious()!;
+      const direction = current! - scrollYProgress.getPrevious()!;
       if (scrollYProgress.get() < 0.05) {
         setVisible(false);
       } else {
