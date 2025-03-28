@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
-import { BackgroundBeams } from './ui/background'
 import { useNav } from './ui/navContext'
 const Hero = () => {
  
