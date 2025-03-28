@@ -92,7 +92,7 @@ export const HeroParallax = ({
     useTransform(scrollYProgress, [0, 0.2], [-700, 500]),
     springConfig
   );
-  const useMediaQuery = (query: any) => {
+  const useMediaQuery = (query: string) => {
     const [matches, setMatches] = React.useState(false);
   
     React.useEffect(() => {
