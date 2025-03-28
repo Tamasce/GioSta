@@ -5,8 +5,6 @@ import React from 'react'
 import { HeroParallax } from './ui/hero-parallax'
 import { programmi, programmi2, programmi3 } from '@/constants'
 import { ProductProvider } from './ui/ProductContex'
-import { PaymentProvider } from './ui/PaymentContext'
-import PayPalCheckout from './pagament'
 
 const Store = () => {
   useGSAP(()=>{
