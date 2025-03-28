@@ -110,7 +110,7 @@ export const HeroParallax = ({
   const isMediumScreen = useMediaQuery('(min-width: 767px)');
   const isLargeScreen = useMediaQuery('(min-width: 1024px)');
   const { active, setActive, setIsVisible } = useProductContext();
-  const [isSmall, setIsSmall] = useState(false);
+  const [isSmall] = useState(false);
   
   return (
     
