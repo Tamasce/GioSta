@@ -4,7 +4,6 @@ import MagicButton from './ui/Magicbutton'
 import { socialMedia } from '@/constants'
 import { TextGenerateEffect } from './ui/TextGenerateText'
 import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/all';
 const Footer = () => {
   useEffect(() => {
     gsap.to('#support-title', {
