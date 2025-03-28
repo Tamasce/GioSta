@@ -8,15 +8,9 @@ import {
   MotionValue,
 } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
-import { useNavbarContext } from "./NavbarContext";
-import { programmi } from "@/constants";
 import { useOutsideClick } from "@/constants/useOutsideClick";
 import { AnimatePresence } from "framer-motion";
 import { useProductContext } from "./ProductContex";
-import { PaymentProvider } from "./PaymentContext";
-import PayPalCheckout from "../pagament";
-import { tr } from "framer-motion/client";
 export const HeroParallax = ({
   products1, products2, products3,
 }: {
