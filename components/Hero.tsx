@@ -53,7 +53,7 @@ const Hero = () => {
       
     }
   },[])
-  const {openNavigation, toggleNavigation, setOpenNavigation} = useNav();
+  const {openNavigation, setOpenNavigation} = useNav();
   return (
     <section className={`w-full h-[calc(100vh-60px)] 2xl:bg-[#010102] bg-[#101010] flex flex-col justify-center items-center z-20 ${openNavigation && 'hidden'}`}>
       <div className='flex-col flex justify-center items-center h-5/6'>
