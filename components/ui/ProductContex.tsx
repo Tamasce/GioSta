@@ -8,7 +8,7 @@ type ActiveType = (typeof programmi)[number] | boolean | null;
 interface ProductContextProps {
   active: ActiveType;
   setActive: React.Dispatch<React.SetStateAction<ActiveType>>;
-  ref: any;
+  ref: React.RefObject<HTMLDivElement | null>;
   setIsVisible: (value: boolean) => void;
 }
 
