@@ -117,7 +117,7 @@ export const HeroParallax = ({
     <div className="bg-[#101010]">
     <AnimatePresence>
     {active && typeof active === "object" ? (
-      <div className={`fixed  grid  z-[100] overflow-hidden ${isSmall ? "top-0 left-1/2 transform -translate-x-1/2 translate-y-0" : "top-0 left-1/2 transform -translate-x-1/2 translate-y-0"  } w-[90vw] h-[90vh] relative  md:w-[600px]`}>
+      <div className={`fixed  grid  z-[100] overflow-hidden ${isSmall ? "top-0 left-1/2 transform -translate-x-1/2 translate-y-0" : "top-0 left-1/2 transform -translate-x-1/2 translate-y-0"  } w-[90vw] h-full relative  md:w-[600px]`}>
         <motion.button
           key={`button-${active.title}`}
           layout
@@ -310,7 +310,7 @@ export const ProductCard = ({
           alt={product.title}
         />
       
-      <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
+      <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none justify-center items-center"></div>
       <h2 className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-1 group-hover/product:opacity-100 text-white text-center">
   {product.title}
 </h2>
