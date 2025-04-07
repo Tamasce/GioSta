@@ -161,7 +161,7 @@ export const HeroParallax = ({
 
               
             </div>
-            <div className="py-4 px-4 h-full">
+            <div className="px-4 h-full">
               <motion.div
                 layout
                 initial={{ opacity: 0 }}
